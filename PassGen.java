@@ -61,12 +61,11 @@ public class PassGen {
 		textArea.setEditable(false);
 		txtPLen.setText("10");
 		txtPCnt.setText("5");
-		textArea.append("Программа для генерации \n"+
-						"паролей. Для того чтобы \n"+
-						"сгенерировать пароль \n"+
-						"необходимо выбрать \n"+
-						"параметри и нажать кнопку \n"+
-						"сгенерировать.");
+		textArea.append("A program for generating \n"+
+						"passwords. In order to \n"+
+						"generate a password, select \n"+
+						"the parameters and click \n"+
+						"the generate button.");
 
 		//Events
 		KeyAdapter ka = new KeyAdapter() {
